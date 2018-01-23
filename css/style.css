@@ -1,0 +1,287 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	background: rgba(0, 0, 0, .9);
+	min-height: 1000px;
+}
+
+/*header and nav sections*/
+
+#homepageheader {
+	height: 100vh;
+	background-image: url("https://wallpapercave.com/wp/Sd3rbbg.jpg");
+	background-size: cover;
+	position: center;
+	margin-bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.headertext {
+	height: 100vh;
+	width: 100%;
+	padding: 20px 0;
+	background-color: rgba(0, 0, 0, .5);
+	color: white;
+	margin: 0 auto;
+	border-radius: 10px;
+	font-family: 'Spectral SC', serif;
+	text-align: center;
+	color: rgb(240, 240, 240);
+}
+
+.headercenter {
+	margin: 250px auto;
+	background: rgba(232, 147, 55, .5);
+	padding: 10px 0px;
+	width: 500px;
+	border-radius: 40px;
+}
+
+header {
+	background-color: black;
+	color: white;
+	margin: 0;
+}
+
+nav {
+	text-align: center;
+	background-color: rgba(0, 0, 0, .9);
+	padding: 20px;
+	font-family: 'Spectral SC', serif;
+}
+
+
+/*about me section*/
+
+.aboutmeimage {
+	height: 99%;
+	background-image: url("http://2wixx71erohn2ixvfu42jxuw.wpengine.netdna-cdn.com/wp-content/uploads/2016/01/shutterstock_167435168-1000x641.jpg");
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: center;
+}
+
+.aboutme {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.aboutmeleft {
+	width: 50%;
+	height: 99%;
+	background-color: rgba(0, 0, 0, .5);
+	color: rgba(255, 255, 255, .8);
+	border-right: 2px solid rgba(0, 0, 0, .9);
+	padding: 10px 10px 0 10px;
+}
+
+
+/*general font styles, etc*/
+.robpic {
+	float: left;
+	margin: 0 10px 10px 50px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+a {
+	padding: 0 30px;
+	text-decoration: none;
+	color: rgb(232, 147, 55);
+	font-family: 'Spectral SC', serif;
+}
+
+a:hover {
+	color: white;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Spectral SC', serif;
+}
+
+hr {
+	max-width: 600px;
+}
+
+p {
+	text-align: center;
+	margin: 50px auto;
+	max-width: 800px;
+}
+
+ul {
+	text-align: center;
+	list-style: none;
+}
+
+li {
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+h2 {
+	font-family: 'Spectral SC', serif;
+}
+
+
+/*coaching section*/
+
+.coaching {
+	background-image: url("https://eohhighveld.co.za/wp-content/uploads/2017/02/getting-life-coaching-e1478726266575.jpg");
+	background-size: cover;
+	position: center;
+	display: flex;
+	flex-direction: column;
+	color: rgba(255, 255, 255, .8);
+}
+
+.coachingcontent {
+	background: rgba(0, 0, 0, .5);
+}
+
+/*team development section*/
+
+.teamdev {
+	background-image: url("http://thecontextofthings.com/wp-content/uploads/2016/06/team-development.jpg");
+	background-size: 50%;
+	position: center;
+	display: flex;
+	flex-direction: column;
+	color: rgba(255, 255, 255, .8);
+}
+
+.teamdevcontent {
+	background: rgba(0, 0, 0, .5);
+}
+
+.leadtrain {
+	background-image: url("https://www.simplilearn.com/ice9/free_resources_article_thumb/leadership-vs-management-difference-article.jpg");
+	background-size: cover;
+	position: center;
+	display: flex;
+	flex-direction: column;
+	color: rgba(255, 255, 255, .8);
+}
+
+.leadtraincontent {
+	background: rgba(0, 0, 0, .5);
+}
+
+/*assessments section*/
+
+.ass {
+	background-image: url("https://study.com/cimages/course-image/introduction-to-business-certificate-course_129464_large.jpg");
+	background-size: cover;
+	position: center;
+	display: flex;
+	flex-direction: column;
+	color: rgba(255, 255, 255, .8);
+}
+
+.asscontent {
+	background: rgba(0, 0, 0, .5);
+}
+
+/*grid section breaks*/
+.grid {
+	margin: 0 auto;
+	margin-bottom: 0;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-auto-rows: minmax(200px, auto);
+	grid-column-gap: 1em;
+	background-color: rgb(232, 147, 55);
+	text-align: center;
+	font-family: serif;
+	font-size: 20px;	
+}
+
+.grid > div:nth-child(even) {
+	background-color: rgba(0, 0, 0, .9);
+	color: rgb(232, 147, 55);
+}
+
+.grid2 {
+	margin: 0 auto;
+	margin-bottom: 0;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-auto-rows: minmax(200px, auto);
+	grid-column-gap: 1em;
+	background-color: rgb(232, 147, 55);
+	text-align: center;
+	font-family: serif;
+	font-size: 20px;
+}
+
+.grid2 > div:nth-child(odd) {
+	background-color: rgba(0, 0, 0, .9);
+	color: rgb(232, 147, 55);
+}
+/*contact stuff and image*/
+.contact {
+	margin: 0;
+}
+
+.contactheader {
+	margin: -35px 0 0 0;
+	height: 100px;
+}
+
+.redneck {
+	margin: auto;
+	width: 500px;
+}
+
+.trashy {
+	height: 500px;
+	width: 500px;
+	padding: 0;
+	border-radius: 100%;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+footer {
+	background-color: rgba(0, 0, 0, .9);
+	color: rgb(232, 147, 55);
+	padding: 0 20px;
+}
+
+.allfooters {
+	background-color: rgba(0, 0, 0, .9);
+	color: rgb(232, 147, 55);
+	padding: 0 20px;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.copyright {
+	float: left;
+}
+
+.reserved {
+	float: right;
+}
